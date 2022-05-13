@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <script src="./js/index.js"></script>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="https://www.seowontimetable.com">Seowon Timetable</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Information<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">GitHub Page</a></li>
+                        <li><a href="#">YouTube Link</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Custom Timetable</a></li>
+                <li><a href="#">S-Chatter</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span id="signup-button"><span class="glyphicon glyphicon-user"></span> Sign Up</span></a></li>
+                <li><a href="#"><span id="login-button"><span class="glyphicon glyphicon-log-in"></span> Login</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1>Seowon Timetable 3.0.0</h1>
+    <h3>Name: <span id="name-form"></span></h3>
+    <h3>Username: <span id="username-form"></span></h3>
+    <h3>Grade: <span id="grade-form"></span></h3>
+    <h3>Class: <span id="class-form"></span></h3>
+    <h3>Number: <span id="number-form"></span></h3>
+    <script>
+        loadCredential();
+    </script>
+</body>
+</html>

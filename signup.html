@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Signup Page</title>
+        <link rel="stylesheet" href="./css/signup.css">
+    </head>
+    <body>
+        <script src="./js/signup.js"></script>
+        <div id="left-div">
+            <div id="left-title">
+                <h1>Sign Up</h1><br>
+            </div>
+            <div id="input-name">
+                <img src="./img/name.png" class="small-image">
+                <input type="text" id="name" placeholder="Full Name">
+            </div>
+            <div id="input-cred">
+                <img src="./img/class.png" class="small-image">
+                <input type="number" id="grade" placeholder="Grade">
+                <input type="number" id="class" placeholder="Class">
+                <input type="number" id="number" placeholder="Number">
+            </div>
+            <div id="input-username">
+                <img src="./img/username.png" class="small-image">
+                <input type="text" id="username" placeholder="Username">
+            </div>
+            <div id="input-password">
+                <img src="./img/password.png" class="small-image">
+                <input type="password" id="password" placeholder="Password">
+                <button type="submit" onclick="window.location.href = './login.html';">Go Back</button>
+            </div>
+            <div id="input-confirm">
+                <img src="./img/password.png" class="small-image">
+                <input type="password" id="confirm" placeholder="Confirm Password">
+                <button type="submit" id="signup" onclick="onSignupClick()">Sign Up</button>
+            </div>
+        </div>
+        <div id="right-div">
+            <div id="right-title-div">
+                <h1 id="right-title"><br><br><br><br>Welcome to<br>PROJECT_NAME</h1>
+            </div>
+        </div>
+    </body>
+</html>
